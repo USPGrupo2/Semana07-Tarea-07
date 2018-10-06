@@ -1,12 +1,11 @@
 <html>
  <head>
-  <title>LISTA:</title>
+  <title>ACTIVIDAD</title>
  </head>
  <body>
-     <h1>LISTA DE NUMEROS</h1>
-     <?php
-     include("metodo.php");
-        echo numeros();
-        ?>
+     <form action="List.php" method="post">
+    <p>CANTIDAD: <input type="text" name="cantidad" placeholder="CANTIDAD DE NUMERO"/></p>
+ <p><input type="submit" name="Mostrar" value="MOSTRAR" /></p>
+</form>
  </body>
 </html>
